@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="card">
+    <div class="avatar">
+        <img src="./tillu.jpeg" alt="Profile Photo">
+    </div>
+
+    <h2>tillu reddy </h2>
+    <p class="role">Senior Creative Designer</p>
+
+    <div class="info">
+        <p><a href="mailto:tillu@example.com">📧 tillu@example.com</a></p>
+        <p><a href="+919609333222">📞 +91 9609333222</a></p>
+        <p><a href="https://maps.app.goo.gl/BoWWT26dkeSmhDBk8">📍dubai , CA</a></p>
+    </div>
+
+    <div class="buttons">
+        <a href="https://in.linkedin.com/" class="btn" onclick="showAlert()">LinkedIn</a>
+        <a href="https://portfolio.adobe.com/" class="btn" onclick="showPortfolioAlert()">Portfolio</a>
+        <a href="https://x.com/" class="btn" onclick="showTwitterAlert()">Twitter</a>
+    </div>
+</div>
+<script>
+    function showAlert(){
+        alert("Hello tillu reddy! Welcome to your profile card.");
+    }
+    function showPortfolioAlert(){
+        alert("Redirecting to your Portfolio!");
+    }
+    function showTwitterAlert(){
+        alert("Redirecting to your Twitter!");
+    }
+</script>
+</body>
+</html>
